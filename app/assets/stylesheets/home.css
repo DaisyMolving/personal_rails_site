@@ -1,0 +1,19 @@
+
+#welcome {
+  background: url("http://i.imgur.com/44q5WlE.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav { 
+  padding: 20px;
+  background: rgba(137, 95, 212, 0.5);
+  text-align: center;
+  }
+li {
+  display: inline;
+  padding: 0px 45px 0px 45px;
+}
+
+article {
+  margin: 45px 45px 45px 45px;
+}

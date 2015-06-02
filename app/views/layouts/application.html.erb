@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RoutingApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="<%= params[:action]%>">
+
+<nav>
+  <li><%= link_to('WELCOME', root_path, class: 'nav-link')%></li>
+  <li><%= link_to('INTRO', intro_path, class: 'nav-link')%></li>
+  <li><%= link_to('PORTFOLIO', portfolio_path, class: 'nav-link')%></li>
+  <li><%= link_to('BIO', bio_path, class: 'nav-link')%></li>
+  <li><%= link_to('CONTACT_INFO', contact_info_path, class: 'nav-link')%></li>
+</nav>
+
+<%= yield %>
+
+</body>
+</html>

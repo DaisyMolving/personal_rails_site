@@ -1,0 +1,44 @@
+
+
+header { 
+  text-align: center; 
+  background: url("http://i.imgur.com/TiUB9DP.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgba(137, 95, 212, 0.5);
+  }
+  a { 
+    color: white; 
+    font-family: helvetica;
+  }
+  h1 { 
+    font-size: 70px; 
+    font-family: helvetica;
+  }
+  h2 { 
+    color: rgba(89,121,170,255); 
+    font-size: 40px; 
+    font-family: helvetica;
+  }
+
+  h3 {
+    font-family: helvetica;
+  }
+
+  p {
+    font-family: helvetica;
+  }
+  
+nav { 
+  padding: 20px;
+  background: rgba(137, 95, 212, 0.5);
+  text-align: center;
+  }
+li {
+  display: inline;
+  padding: 0px 45px 0px 45px;
+}
+
+article {
+  margin: 45px 45px 45px 45px;
+}
